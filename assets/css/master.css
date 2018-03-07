@@ -1,0 +1,15 @@
+.parallax {
+  /* Crear efecte parallax */
+  background-attachment: fixed;
+  background-position  : center;
+  background-repeat    : no-repeat;
+  background-size      : cover;
+}
+
+header#index {
+  background-image   : url("https://source.unsplash.com/u0sviAL9pJM");
+  background-position: center;
+  background-repeat  : no-repeat;
+  background-size    : cover;
+  height             : 700px;
+}
