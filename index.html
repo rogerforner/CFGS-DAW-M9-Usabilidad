@@ -30,28 +30,34 @@
   <body>
     <nav class="navbar navbar-expand-lg navbar-light bg-warning">
       <img class="mr-2" src="assets/img/yogaLogo.png" width="auto" height="30" alt="Yogii">
-      <a class="navbar-brand" href="#"><em data-toggle="tooltip" data-placement="bottom" title="- Bruce Lee">be water my friend</em></a>
+      <a class="navbar-brand" href="#">
+        <em data-toggle="tooltip" data-placement="bottom" title="- Bruce Lee">be water my friend</em>
+      </a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
         aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
-
+    
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav mr-auto">
           <li class="nav-item active">
-            <a class="nav-link" href="index.html"
-               data-toggle="tooltip" data-placement="bottom"
-               title="Pàgina d'inici">Inici</a>
+            <a class="nav-link" href="index.html" data-toggle="tooltip" data-placement="bottom" title="Pàgina d'inici">Inici</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true"
+              aria-expanded="false">
+              Inscripcions
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" data-toggle="tooltip" data-placement="bottom" title="Inscriu-te a les nostres classes de Hatha"
+                href="inscriute.html">Hatha Ioga</a>
+              <a class="dropdown-item" data-toggle="tooltip" data-placement="bottom" title="Inscriu-te a les nostres classes de Bahkti"
+                href="inscriute.html">Bahkti Ioga</a>
+              <a class="dropdown-item" data-toggle="tooltip" data-placement="bottom" title="Inscriu-te a les nostres classes de Japa" href="inscriute.html">Japa Ioga</a>
+            </div>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="inscriute.html"
-               data-toggle="tooltip" data-placement="bottom"
-               title="Inscriu-te a les nostres classes">Inscriu-te</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="faq.html"
-               data-toggle="tooltip" data-placement="bottom"
-               title="Preguntes freqüents">FAQs</a>
+            <a class="nav-link" href="faq.html" data-toggle="tooltip" data-placement="bottom" title="Preguntes freqüents">FAQs</a>
           </li>
         </ul>
         <form class="form-inline my-2 my-lg-0" action="http://google.com/search" target="_blank">
