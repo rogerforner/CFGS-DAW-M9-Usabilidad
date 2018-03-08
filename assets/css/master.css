@@ -26,3 +26,7 @@ header#index {
   background-size    : cover;
   height             : 700px;
 }
+
+.row{
+  margin-right: 0px!important;margin-left:0px!important;
+}
