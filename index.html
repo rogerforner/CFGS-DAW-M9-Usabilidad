@@ -23,7 +23,10 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
-    <!-- Estils -->
+    <!-- Print.js -->
+    <link rel="stylesheet" href="https://printjs-4de6.kxcdn.com/print.min.css">
+
+    <!-- Estils Yogii -->
     <link rel="stylesheet" href="assets/css/master.css">
 
     <title>Yogii</title>
@@ -60,6 +63,13 @@
           <li class="nav-item">
             <a class="nav-link" href="faq.html" data-toggle="tooltip" data-placement="bottom" title="Preguntes freqüents">FAQs</a>
           </li>
+          <li class="nav-item">
+            <button class="nav-link btn btn-dark btn-sm text-warning" type="button"
+                    data-toggle="tooltip" data-placement="bottom" title="Imprimir informació sobre el centre"
+                    onclick="printJS('docs/yogii.pdf')">
+              <i class="fas fa-print"></i> Imprimir
+            </button>
+          </li>
         </ul>
         <form class="form-inline my-2 my-lg-0" action="http://google.com/search" target="_blank">
           <input name="q" class="form-control mr-sm-2" type="search" placeholder="Buscar a Google" aria-label="Buscar">
@@ -92,7 +102,7 @@
           <div class="col">
             <div class="card border-warning p-3 ombra">
               <div class="card-body">
-                <h5 class="card-title">Yogii?</h5>
+                <h5 class="card-title">Què és Yogii?</h5>
 
                 <p class="card-text text-justify lead"><strong>Yogii</strong> és un centre de ioga en el que es duen a terme tècniques ancestrals d'aquesta tradicional disciplina mental i física.</p>
               </div>
@@ -148,13 +158,23 @@
       </section>
     </main>
 
-    <footer></footer>
+    <footer class="container-fluid bg-warning py-3">
+      <div class="row">
+        <div class="col">
+          <p class="m-0 text-right">Copyright <i class="fas fa-copyright"></i> 2018, Yogii. Tots els drets reservats.<br>
+          <small><em>ABP 6, Joan Navarro i Roger Forner, Grup 3. Institut Montsià.</em></small></p>
+        </div>
+      </div>
+    </footer>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <!-- Print.js -->
+    <script src="https://printjs-4de6.kxcdn.com/print.min.js" charset="utf-8"></script>
+    <!-- Scripts Yogii -->
     <script src="assets/js/master.js" charset="utf-8"></script>
   </body>
 </html>

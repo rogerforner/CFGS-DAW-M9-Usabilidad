@@ -23,6 +23,10 @@ header h1,
 header h2 {
   text-shadow: 0px 0px 11px rgba(0, 0, 0, 1);
 }
+header .h-04 {
+  background: linear-gradient(#ffc107, #fff2cc);
+  height: 400px;
+}
 header#index {
   background-image   : url("https://source.unsplash.com/u0sviAL9pJM");
   background-position: center;
@@ -32,7 +36,6 @@ header#index {
 }
 header#index .h-100 {
   background: linear-gradient(#ffc107, rgba(255, 242, 204, 0.48));
-  /* background-color: rgba(14, 11, 0, 0.45); */
 }
 
 .dropdown-item.active,
