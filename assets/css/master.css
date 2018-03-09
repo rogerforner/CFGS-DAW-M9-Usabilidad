@@ -30,6 +30,21 @@ header#index {
   background-size    : cover;
   height             : 700px;
 }
+header#index .h-100 {
+  background: linear-gradient(#ffc107, rgba(255, 242, 204, 0.48));
+  /* background-color: rgba(14, 11, 0, 0.45); */
+}
+
+.dropdown-item.active,
+.dropdown-item:active {
+  color: #000;
+  text-decoration: none;
+  background-color: #ffc107;
+}
+
+li.breadcrumb-item a {
+  color: #aa7f00;
+}
 
 .row{
   margin-right: 0px!important;margin-left:0px!important;
